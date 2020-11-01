@@ -8,11 +8,14 @@ $header-font: "Mont Heavy", sans-serif;
 
 // $header-color: #363636;
 // $body-color: #3f3f3f;
-$header-color: rgba(238, 238, 238, 1);
-$body-color: rgba(235, 235, 235, 1);
+$header-color: rgba(238, 238, 238, 0.95);
+$body-color: rgba(235, 235, 235, 0.95);
+
+// $header-color: rgba(255, 255, 255, 0.95);
+// $body-color: rgba(255, 255, 255, 0.9);
 
 $button-color: #000000;
 
 // $background-color: background: linear-gradient(45deg, rgba(47,50,56,1) 0%, rgba(0,0,0,1) 100%);
-$background-color: rgba(47, 50, 56, 1);
+$background-color: #000000;
 // $background-color: rgba(49, 36, 174, 1);
