@@ -145,8 +145,7 @@ const Content = () => {
                 <span
                   style={{
                     fontWeight: "bold",
-                    color: "rgb(235, 235, 235)",
-                    textShadow: "1px 1px 1px #000",
+                    color: "rgb(250, 250, 250)",
                   }}
                 >
                   people@somethingnew.com
