@@ -57,7 +57,7 @@ const Content = () => {
                 <br />
                 <br />
                 We believe in all the above, but we also observe that change is
-                evolving.
+                evolving
                 <br />
                 And it is driven by people
               </p>
@@ -90,7 +90,7 @@ const Content = () => {
                 difference in the world
                 <br />
                 <br />
-                We create Organizational Capital Evolution.
+                We create Organizational Capital Evolution
                 <br />
                 And we are looking for Someone to join our team
               </p>
