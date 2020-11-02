@@ -57,7 +57,9 @@ const Content = () => {
                 <br />
                 <br />
                 We believe in all the above, but we also observe that change is
-                evolving And it is driven by people
+                evolving.
+                <br />
+                And it is driven by people
               </p>
             </div>
             <div
