@@ -14,14 +14,13 @@ const Content = () => {
               data-sal-delay="0"
               data-sal-duration="2000"
               data-sal-easing="ease-out-bounce"
-              style={{ textAlign: "center" }}
             >
               <h1>
-                Are You
+                Are you
                 <br />
-                Someone at
+                someone at
                 <br />
-                Something New?
+                something new?
               </h1>
             </div>
           </div>
