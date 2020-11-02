@@ -14,25 +14,26 @@ const Content = () => {
               data-sal-delay="0"
               data-sal-duration="2000"
               data-sal-easing="ease-out-bounce"
+              style={{ textAlign: "center" }}
             >
               <h1>
-                Are you
+                Are You
                 <br />
-                someone at
+                Someone at
                 <br />
-                something new?
+                Something New?
               </h1>
             </div>
           </div>
           <div className={classes.text}>
-            <div
+            {/* <div
               data-sal="fade"
               data-sal-delay="0"
               data-sal-duration="2000"
               data-sal-easing="ease-out-bounce"
             >
               <h1>SOMETHING NEW...</h1>
-            </div>
+            </div> */}
             <div
               data-sal="fade"
               data-sal-delay="0"
@@ -82,7 +83,7 @@ const Content = () => {
                 <br />
                 We don’t take shortcuts, We create sustainable value
                 <br />
-                We are a team with a shared evolving purpose and or values
+                We are a team with a shared evolving purpose and values
                 <br />
                 We develop people who evolve organizations that make a
                 difference in the world
