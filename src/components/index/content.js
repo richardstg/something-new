@@ -16,11 +16,11 @@ const Content = () => {
               data-sal-easing="ease-out-bounce"
             >
               <h1>
-                Are you
+                Are You
                 <br />
-                someone at
+                Someone at
                 <br />
-                something new?
+                Something New?
               </h1>
             </div>
           </div>
@@ -31,7 +31,7 @@ const Content = () => {
               data-sal-duration="2000"
               data-sal-easing="ease-out-bounce"
             >
-              <h1>Our Belief</h1>
+              <h2>Our Belief</h2>
             </div>
             <div
               data-sal="fade"
@@ -138,7 +138,7 @@ const Content = () => {
                 but most importantly, you believe in what you just read
                 <br />
                 <br />
-                Are you someone@somethingnew?
+                Are you someone at something new?
                 <br />
                 <br />
                 Email us your story and where you are heading at 
