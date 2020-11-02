@@ -143,12 +143,11 @@ const Content = () => {
                 <br />
                 Are you someone at something new?
                 <br />
-                <br />
                 Email us your story and where you are heading at 
                 <span
                   style={{
                     fontWeight: "bold",
-                    color: "rgb(250, 250, 250)",
+                    // color: "rgb(250, 250, 250)",
                   }}
                 >
                   people@somethingnew.com
