@@ -66,7 +66,7 @@ const Content = () => {
               data-sal-duration="2000"
               data-sal-easing="ease-out-bounce"
             >
-              <h2>Who are we?</h2>
+              <h2>Who Are We?</h2>
               <p>
                 We come from all different backgrounds,
                 <br />
