@@ -8,7 +8,7 @@ const Content = () => {
     <Container id="content" className={classes.outerWrapper} fluid>
       <Container className={classes.innerWrapper}>
         <div className={classes.container}>
-          <div className={classes.landing}>
+          {/* <div className={classes.landing}>
             <div
               data-sal="fade"
               data-sal-delay="0"
@@ -23,16 +23,16 @@ const Content = () => {
                 something new?
               </h1>
             </div>
-          </div>
+          </div> */}
           <div className={classes.text}>
-            {/* <div
+            <div
               data-sal="fade"
               data-sal-delay="0"
               data-sal-duration="2000"
               data-sal-easing="ease-out-bounce"
             >
               <h1>SOMETHING NEW...</h1>
-            </div> */}
+            </div>
             <div
               data-sal="fade"
               data-sal-delay="0"
