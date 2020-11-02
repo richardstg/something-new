@@ -88,8 +88,9 @@ const Content = () => {
                 difference in the world
                 <br />
                 <br />
-                We create Organizational Capital Evolution And we are looking
-                for Someone to join our team
+                We create Organizational Capital Evolution.
+                <br />
+                And we are looking for Someone to join our team
               </p>
             </div>
             <div
