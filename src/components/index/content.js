@@ -1,9 +1,20 @@
-import React from "react"
+import React, { useRef } from "react"
 import { Container } from "reactstrap"
 
 import classes from "./content.module.scss"
+import Arrow from "../svg/arrow"
+
+const scrollToRef = ref => {
+  if (typeof window !== "undefined") {
+    console.log(ref)
+    window.scrollTo(0, ref.current.offsetTop)
+  }
+}
 
 const Content = () => {
+  const myRef = useRef(null)
+  const executeScroll = () => scrollToRef(myRef)
+
   return (
     <Container id="content" className={classes.outerWrapper} fluid>
       <Container className={classes.innerWrapper}>
@@ -23,8 +34,18 @@ const Content = () => {
                 Something New?
               </h1>
             </div>
+            <div
+              data-sal="fade"
+              data-sal-delay="300"
+              data-sal-duration="2000"
+              data-sal-easing="ease-out-bounce"
+              onClick={executeScroll}
+              className={classes.arrow}
+            >
+              <Arrow />
+            </div>
           </div>
-          <div className={classes.text}>
+          <div ref={myRef} className={classes.text}>
             <div
               data-sal="fade"
               data-sal-delay="0"
@@ -40,23 +61,23 @@ const Content = () => {
               data-sal-easing="ease-out-bounce"
             >
               <p>
-                We observe that information flows at an increasingly higher pace
+                We observe that information flows at an increasingly higher pace
                 <br />
-                We observe an increasing number of interconnections and new
+                We observe an increasing number of interconnections and new
                 business logics
                 <br />
-                We observe the rise of distributed leadership
-                and self-organizations
+                We observe the rise of distributed leadership and
+                self-organizations
                 <br />
                 <br />
-                We believe in deep knowledge and data-driven decision-making
+                We believe in deep knowledge and data-driven decision-making
                 <br />
-                We believe in pragmatic value creation​ and cultural alignment
+                We believe in pragmatic value creation and cultural alignment
                 <br />
                 We believe in inner and outer sustainability
                 <br />
                 <br />
-                We believe in all the above, but we also observe that change is
+                We believe in all the above, but we also observe that change is
                 evolving
                 <br />
                 And it is driven by people
@@ -74,7 +95,7 @@ const Content = () => {
                 <br />
                 brought together by a passion for people and business
                 <br />
-                We are real people who combine Mind, Heart and Soul in all that
+                We are real people who combine Mind, Heart and Soul in all that
                 we are
                 <br />
                 We want to make a positive impact on the world
@@ -86,11 +107,11 @@ const Content = () => {
                 <br />
                 We are a team with a shared evolving purpose and values
                 <br />
-                We develop people who evolve organizations that make a
+                We develop people who evolve organizations that make a
                 difference in the world
                 <br />
                 <br />
-                We create Organizational Capital Evolution
+                We create Organizational Capital Evolution
                 <br />
                 And we are looking for Someone to join our team
               </p>
@@ -143,7 +164,7 @@ const Content = () => {
                 <br />
                 Are you someone at something new?
                 <br />
-                Email us your story and where you are heading at 
+                Email us your story and where you are heading at{" "}
                 <span
                   style={{
                     fontWeight: "bold",
