@@ -85,7 +85,7 @@
   }
 }
 
-.arrow {
+.arrowContainer {
   position: absolute;
   width: 100%;
   bottom: 0;
@@ -94,14 +94,15 @@
   align-items: center;
   align-content: center;
   transition: all 0.2s ease-in;
-  svg {
-    margin: 0 auto;
-    width: 40px;
-    fill: rgba(255, 255, 255, 0.6);
-    &:hover {
-      fill: rgba(255, 255, 255, 0.9);
-      cursor: pointer;
-    }
+}
+
+.arrow {
+  margin: 0 auto;
+  width: 40px;
+  fill: rgba(255, 255, 255, 0.6);
+  &:hover {
+    fill: rgba(255, 255, 255, 0.9);
+    cursor: pointer;
   }
 }
 

@@ -39,10 +39,11 @@ const Content = () => {
               data-sal-delay="300"
               data-sal-duration="2000"
               data-sal-easing="ease-out-bounce"
-              onClick={executeScroll}
-              className={classes.arrow}
+              className={classes.arrowContainer}
             >
-              <Arrow />
+              <div onClick={executeScroll} className={classes.arrow}>
+                <Arrow />
+              </div>
             </div>
           </div>
           <div ref={myRef} className={classes.text}>
