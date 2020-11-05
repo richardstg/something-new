@@ -35,10 +35,10 @@ const Content = () => {
               </h1>
             </div>
             <div
-              data-sal="fade"
-              data-sal-delay="300"
-              data-sal-duration="2000"
-              data-sal-easing="ease-out-bounce"
+              // data-sal="fade"
+              // data-sal-delay="300"
+              // data-sal-duration="2000"
+              // data-sal-easing="ease-out-bounce"
               className={classes.arrowContainer}
             >
               <div
@@ -52,18 +52,18 @@ const Content = () => {
           </div>
           <div ref={myRef} className={classes.text}>
             <div
-              data-sal="fade"
-              data-sal-delay="0"
-              data-sal-duration="2000"
-              data-sal-easing="ease-out-bounce"
+            // data-sal="fade"
+            // data-sal-delay="0"
+            // data-sal-duration="2000"
+            // data-sal-easing="ease-out-bounce"
             >
               <h2>Our Belief</h2>
             </div>
             <div
-              data-sal="fade"
-              data-sal-delay="0"
-              data-sal-duration="2000"
-              data-sal-easing="ease-out-bounce"
+            // data-sal="fade"
+            // data-sal-delay="0"
+            // data-sal-duration="2000"
+            // data-sal-easing="ease-out-bounce"
             >
               <p>
                 We observe that information flows at an increasingly higher pace
@@ -89,10 +89,10 @@ const Content = () => {
               </p>
             </div>
             <div
-              data-sal="fade"
-              data-sal-delay="0"
-              data-sal-duration="2000"
-              data-sal-easing="ease-out-bounce"
+            // data-sal="fade"
+            // data-sal-delay="0"
+            // data-sal-duration="2000"
+            // data-sal-easing="ease-out-bounce"
             >
               <h2>Who Are We?</h2>
               <p>
@@ -122,10 +122,10 @@ const Content = () => {
               </p>
             </div>
             <div
-              data-sal="fade"
-              data-sal-delay="0"
-              data-sal-duration="2000"
-              data-sal-easing="ease-out-bounce"
+            // data-sal="fade"
+            // data-sal-delay="0"
+            // data-sal-duration="2000"
+            // data-sal-easing="ease-out-bounce"
             >
               <h2>Partnerships</h2>
               <p>
@@ -140,10 +140,10 @@ const Content = () => {
               </p>
             </div>
             <div
-              data-sal="fade"
-              data-sal-delay="0"
-              data-sal-duration="2000"
-              data-sal-easing="ease-out-bounce"
+            // data-sal="fade"
+            // data-sal-delay="0"
+            // data-sal-duration="2000"
+            // data-sal-easing="ease-out-bounce"
             >
               <h2>You</h2>
               <p>
