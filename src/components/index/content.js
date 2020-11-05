@@ -176,7 +176,7 @@ const Content = () => {
                     // color: "rgb(250, 250, 250)",
                   }}
                 >
-                  people@somethingnew.com
+                  people@somethingnew.se
                 </span>
               </p>
             </div>
