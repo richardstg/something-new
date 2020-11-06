@@ -42,7 +42,7 @@ const Content = () => {
               className={classes.arrowContainer}
             >
               <div
-                onKeyDown={executeScroll}
+                // onKeyDown={executeScroll}
                 onClick={executeScroll}
                 className={classes.arrow}
               >
