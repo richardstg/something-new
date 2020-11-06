@@ -90,13 +90,14 @@
   width: 100%;
   bottom: 0;
   padding: 20px;
-  display: flex;
-  align-items: center;
-  align-content: center;
+  // display: flex;
+  // align-items: center;
+  // align-content: center;
   transition: all 0.2s ease-in;
 }
 
 .arrow {
+  position: relative;
   margin: 0 auto;
   width: 40px;
   height: 40px;
