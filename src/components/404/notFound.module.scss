@@ -1,0 +1,126 @@
+@import "../../styles/variables.scss";
+
+.outer-wrapper {
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  // background: radial-gradient(
+  //   circle,
+  //   rgba(255, 255, 255, 0.8) 0%,
+  //   rgba(43, 43, 43, 0.7) 100%
+  // );
+  // background: radial-gradient(
+  //   circle,
+  //   rgba(255, 255, 255, 0.9) 0%,
+  //   rgba(0, 0, 0, 0.6) 100%
+  // );
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.inner-wrapper {
+}
+
+.textDiv {
+  padding-left: $vertical-rhythm;
+  // display: inline-flex;
+  // align-items: center;
+}
+
+.textColumn {
+  // border-left: 1px solid rgba(43, 43, 43, 0.5);
+}
+
+.text {
+  font-size: 8rem;
+  // margin-bottom: $vertical-rhythm;
+  font-weight: 600;
+  color: rgba(189, 189, 189, 0.8);
+  opacity: 0.85;
+  line-height: 1;
+  // margin-left: $vertical-rhythm;
+}
+
+.word {
+  display: block;
+}
+
+.imageColumn {
+}
+
+.buttonColumn {
+}
+
+.imageDiv {
+  img {
+    margin: 0;
+  }
+  padding-right: $vertical-rhythm;
+}
+
+.buttonDiv {
+  text-align: right;
+  padding-top: $vertical-rhythm;
+  padding-right: $vertical-rhythm;
+}
+
+.button {
+  display: inline;
+  padding: 0.46em 1.6em;
+  border: 0.1em solid rgba(255, 255, 255, 0.9);
+  margin: 0;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: $header-font;
+  text-transform: uppercase;
+  width: 100%;
+  // font-weight: 300;
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0.04em 0.04em rgba(0, 0, 0, 0.35);
+  background-color: transparent;
+  text-align: center;
+  transition: all 0.4s ease-in;
+  box-shadow: inset 0px 0px 0px rgba(255, 255, 255, 0.9);
+  &:hover {
+    background-color: rgba(43, 43, 43, 0.9);
+    color: black;
+    box-shadow: inset 0px 0px 150px rgba(255, 255, 255, 0.9);
+  }
+  &:focus {
+    outline: none !important;
+  }
+}
+
+.link {
+  &:visited,
+  &:hover,
+  &:active {
+    text-decoration: none;
+  }
+  &:focus {
+    outline: none !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .text {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .text {
+    font-size: 2.8rem;
+  }
+}
+
+// @media (max-width: 991px) {
+//   .text {
+//     font-size: 1.7rem;
+//   }
+// }
