@@ -50,16 +50,20 @@
 
 .landing {
   position: relative;
-  display: flex;
-  align-items: center;
-  align-content: center;
+  // display: flex;
+  // align-items: center;
+  // align-content: center;
   min-height: 100vh;
   h1 {
-    // margin-top: 50%;
-    // transform: translateY(-50%);
     font-size: 8rem;
     color: white;
     line-height: normal;
+
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
     @media screen and (max-width: 1199px) {
       font-size: 6.6rem;
     }
