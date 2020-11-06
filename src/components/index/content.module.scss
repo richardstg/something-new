@@ -100,6 +100,9 @@
   margin: 0 auto;
   width: 40px;
   fill: rgba(255, 255, 255, 0.6);
+  z-index: 10;
+  // backface-visibility: hidden;
+
   &:hover {
     fill: rgba(255, 255, 255, 0.9);
     cursor: pointer;
