@@ -71,7 +71,7 @@
       font-size: 4.9rem;
     }
     @media screen and (max-width: 767px) {
-      font-size: 3.5rem;
+      font-size: 3.4rem;
     }
     @media screen and (max-width: 557px) {
       font-size: 3rem;
@@ -107,7 +107,10 @@
       fill: rgba(255, 255, 255, 0.9);
       cursor: pointer;
     }
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    @media screen and (max-width: 1199px) {
+      margin-bottom: 90px;
+    }
     @media screen and (max-width: 991px) {
       margin-bottom: 120px;
     }
