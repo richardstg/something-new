@@ -41,13 +41,13 @@ const Content = () => {
               // data-sal-easing="ease-out-bounce"
               className={classes.arrowContainer}
             >
-              <div
+              {/* <div
                 onKeyDown={executeScroll}
                 onClick={executeScroll}
                 className={classes.arrow}
-              >
-                <Arrow />
-              </div>
+              > */}
+              <Arrow />
+              {/* </div> */}
             </div>
           </div>
           <div ref={myRef} className={classes.text}>

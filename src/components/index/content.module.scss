@@ -89,22 +89,37 @@
   position: absolute;
   width: 100%;
   bottom: 0;
-  padding: 60px;
-  display: flex;
-  align-items: center;
-  align-content: center;
+  padding: 40px;
+  // display: flex;
+  // display: block;
+  // align-items: center;
+  // align-content: center;
   transition: all 0.2s ease-in;
-}
 
-.arrow {
-  margin: 0 auto;
-  width: 40px;
-  fill: rgba(255, 255, 255, 0.6);
-  &:hover {
-    fill: rgba(255, 255, 255, 0.9);
-    cursor: pointer;
+  svg {
+    // margin: 0 auto;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 40px;
+    fill: rgba(255, 255, 255, 0.6);
+    &:hover {
+      fill: rgba(255, 255, 255, 0.9);
+      cursor: pointer;
+    }
   }
 }
+
+// .arrow {
+// margin: 0 auto;
+// margin-left: 50%;
+// transform: translateX(-50%);
+// width: 40px;
+// fill: rgba(255, 255, 255, 0.6);
+// &:hover {
+//   fill: rgba(255, 255, 255, 0.9);
+//   cursor: pointer;
+// }
+// }
 
 .text {
   text-align: center;
