@@ -4,9 +4,9 @@ import BackgroundSlider from "react-background-slider"
 import SEO from "../components/seo"
 import Layout from "../components/layout"
 import Content from "../components/index/content"
-import image1 from "../images/lights.jpg"
-import image2 from "../images/sthlm.jpg"
-import image3 from "../images/forest.jpg"
+import image1 from "../images/small/lights.jpg"
+import image2 from "../images/small/sthlm.jpg"
+import image3 from "../images/small/forest.jpg"
 
 const IndexPage = () => {
   return (
