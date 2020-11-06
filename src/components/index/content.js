@@ -21,10 +21,10 @@ const Content = () => {
         <div className={classes.container}>
           <div className={classes.landing}>
             <div
-              data-sal="fade"
-              data-sal-delay="0"
-              data-sal-duration="2000"
-              data-sal-easing="ease-out-bounce"
+            // data-sal="fade"
+            // data-sal-delay="0"
+            // data-sal-duration="2000"
+            // data-sal-easing="ease-out-bounce"
             >
               <h1>
                 Are You
@@ -42,7 +42,7 @@ const Content = () => {
               className={classes.arrowContainer}
             >
               <div
-                // onKeyDown={executeScroll}
+                onKeyDown={executeScroll}
                 onClick={executeScroll}
                 className={classes.arrow}
               >
