@@ -50,11 +50,13 @@
 
 .landing {
   position: relative;
-  display: flex;
-  align-items: center;
-  align-content: center;
-  height: 100vh;
+  // display: flex;
+  // align-items: center;
+  // align-content: center;
+  min-height: 100vh;
   h1 {
+    // margin-top: 50%;
+    // transform: translateY(-50%);
     font-size: 8rem;
     color: white;
     line-height: normal;
