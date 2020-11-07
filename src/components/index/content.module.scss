@@ -110,9 +110,9 @@
     @media screen and (max-width: 991px) {
       margin-bottom: 120px;
     }
-    @media only screen and (min-device-width: 480px) and (max-device-width: 640px) and (orientation: landscape) {
+    @media only screen and (min-device-width: 480px) and (max-device-width: 900px) and (orientation: landscape) {
       display: none;
-      // visibility: hidden;
+      visibility: hidden;
     }
   }
 }
