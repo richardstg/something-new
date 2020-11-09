@@ -165,3 +165,9 @@
     display: none;
   }
 }
+
+.linebreakPhone {
+  @media screen and (min-width: 576px) {
+    display: none;
+  }
+}

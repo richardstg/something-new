@@ -68,11 +68,13 @@ const Content = () => {
               <p>
                 We observe that information flows at an increasingly higher pace
                 <br />
+                <br className={classes.linebreakPhone} />
                 We observe an increasing number of interconnections{" "}
                 <br className={classes.linebreakLarge} />
                 <br className={classes.linebreakMedium} />
                 and new business logics
                 <br />
+                <br className={classes.linebreakPhone} />
                 We observe the rise of distributed leadership and{" "}
                 <br className={classes.linebreakSmall} />
                 self-organizations
@@ -82,16 +84,19 @@ const Content = () => {
                 <br className={classes.linebreakSmall} />
                 decision-making
                 <br />
+                <br className={classes.linebreakPhone} />
                 We believe in pragmatic value creation and{" "}
                 <br className={classes.linebreakSmall} />
                 cultural alignment
                 <br />
+                <br className={classes.linebreakPhone} />
                 We believe in inner and outer sustainability
                 <br />
                 <br />
                 We believe in all the above, but we also observe that change is
                 evolving
                 <br />
+                <br className={classes.linebreakPhone} />
                 And it is driven by people
               </p>
             </div>
@@ -107,20 +112,26 @@ const Content = () => {
                 <br />
                 brought together by a passion for people and business
                 <br />
+                <br className={classes.linebreakPhone} />
                 We are real people who combine Mind, Heart and Soul in all that
                 we are
                 <br />
+                <br className={classes.linebreakPhone} />
                 We want to make a positive impact on the world
                 <br />
+                <br className={classes.linebreakPhone} />
                 We think differently with an ambition{" "}
                 <br className={classes.linebreakSmall} />
                 to challenge conventionality
                 <br />
+                <br className={classes.linebreakPhone} />
                 We don’t take shortcuts, We create sustainable value
                 <br />
+                <br className={classes.linebreakPhone} />
                 We are a team <br className={classes.linebreakSmall} />
                 with a shared evolving purpose and values
                 <br />
+                <br className={classes.linebreakPhone} />
                 We develop people who evolve organizations that make{" "}
                 <br className={classes.linebreakMedium} />a difference in the
                 world
@@ -128,6 +139,7 @@ const Content = () => {
                 <br />
                 We create Organizational Capital Evolution
                 <br />
+                <br className={classes.linebreakPhone} />
                 And we are looking for Someone to join our team
               </p>
             </div>
@@ -141,13 +153,16 @@ const Content = () => {
               <p>
                 We believe that the greatest results are created together
                 <br />
+                <br className={classes.linebreakPhone} />
                 We work together to create meaningful partnerships
                 <br />
+                <br className={classes.linebreakPhone} />
                 ​We base our partnerships on long-term value creation,{" "}
                 <br className={classes.linebreakLarge} />
                 <br className={classes.linebreakMedium} />
                 which begins on day one
                 <br />
+                <br className={classes.linebreakPhone} />
                 We are based in Sweden, but our partnerships are global
               </p>
             </div>
@@ -161,30 +176,38 @@ const Content = () => {
               <p>
                 You want to lead evolution within Organizational Capital
                 <br />
+                <br className={classes.linebreakPhone} />
                 You are our most valuable asset
                 <br />
+                <br className={classes.linebreakPhone} />
                 You consider yourself your most important leader
                 <br />
+                <br className={classes.linebreakPhone} />
                 You can make mistakes, learn from them and understand that
                 others will too
                 <br />
+                <br className={classes.linebreakPhone} />
                 You are accepting of the views and beliefs of all
                 <br />
+                <br className={classes.linebreakPhone} />
                 You are just beginning,{" "}
                 <br className={classes.linebreakSmall} />
                 or are already well established in your career
                 <br />
+                <br className={classes.linebreakPhone} />
                 You are looking for a full-time position,{" "}
                 <br className={classes.linebreakLarge} />
                 <br className={classes.linebreakMedium} />
                 <br className={classes.linebreakSmall} />
                 or need flexible hours around your studies
                 <br />
+                <br className={classes.linebreakPhone} />
                 but most importantly, you believe in what you just read
                 <br />
                 <br />
                 Are you someone at something new?
                 <br />
+                <br className={classes.linebreakPhone} />
                 Email us your story and where you are heading at{" "}
                 <span
                   style={{
