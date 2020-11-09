@@ -109,6 +109,7 @@ const Content = () => {
               <h2>Who Are We?</h2>
               <p>
                 We come from all different backgrounds,{" "}
+                <br className={classes.linebreakExtraLarge} />
                 <br className={classes.linebreakLarge} />
                 <br className={classes.linebreakMedium} />
                 <br className={classes.linebreakSmall} />
@@ -201,10 +202,12 @@ const Content = () => {
                 <br className={classes.linebreakLarge} />
                 <br className={classes.linebreakMedium} />
                 <br className={classes.linebreakSmall} />
-                or need flexible hours around your studies
-                <br />
-                <br className={classes.linebreakPhone} />
-                But most importantly, you believe in what you just read
+                or need flexible hours around your studies,{" "}
+                <br className={classes.linebreakExtraLarge} />
+                <br className={classes.linebreakLarge} />
+                <br className={classes.linebreakMedium} />
+                <br className={classes.linebreakSmall} />
+                but most importantly, you believe in what you just read
                 <br />
                 <br />
                 Are you someone at something new?

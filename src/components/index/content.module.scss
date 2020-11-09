@@ -140,6 +140,12 @@
   }
 }
 
+.linebreakExtraLarge {
+  @media screen and (max-width: 1199px) {
+    display: none;
+  }
+}
+
 .linebreakLarge {
   @media screen and (min-width: 1200px) {
     display: none;
