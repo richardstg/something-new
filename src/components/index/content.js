@@ -68,16 +68,23 @@ const Content = () => {
               <p>
                 We observe that information flows at an increasingly higher pace
                 <br />
-                We observe an increasing number of interconnections and new
-                business logics
+                We observe an increasing number of interconnections{" "}
+                <br className={classes.linebreakLarge} />
+                <br className={classes.linebreakMedium} />
+                and new business logics
                 <br />
-                We observe the rise of distributed leadership and
+                We observe the rise of distributed leadership and{" "}
+                <br className={classes.linebreakSmall} />
                 self-organizations
                 <br />
                 <br />
-                We believe in deep knowledge and data-driven decision-making
+                We believe in deep knowledge and data-driven{" "}
+                <br className={classes.linebreakSmall} />
+                decision-making
                 <br />
-                We believe in pragmatic value creation and cultural alignment
+                We believe in pragmatic value creation and{" "}
+                <br className={classes.linebreakSmall} />
+                cultural alignment
                 <br />
                 We believe in inner and outer sustainability
                 <br />
@@ -105,15 +112,18 @@ const Content = () => {
                 <br />
                 We want to make a positive impact on the world
                 <br />
-                We think differently with an ambition to challenge
-                conventionality
+                We think differently with an ambition{" "}
+                <br className={classes.linebreakSmall} />
+                to challenge conventionality
                 <br />
                 We don’t take shortcuts, We create sustainable value
                 <br />
-                We are a team with a shared evolving purpose and values
+                We are a team <br className={classes.linebreakSmall} />
+                with a shared evolving purpose and values
                 <br />
-                We develop people who evolve organizations that make a
-                difference in the world
+                We develop people who evolve organizations that make{" "}
+                <br className={classes.linebreakMedium} />a difference in the
+                world
                 <br />
                 <br />
                 We create Organizational Capital Evolution
@@ -133,8 +143,10 @@ const Content = () => {
                 <br />
                 We work together to create meaningful partnerships
                 <br />
-                ​We base our partnerships on long-term value creation, which
-                begins on day one
+                ​We base our partnerships on long-term value creation,{" "}
+                <br className={classes.linebreakLarge} />
+                <br className={classes.linebreakMedium} />
+                which begins on day one
                 <br />
                 We are based in Sweden, but our partnerships are global
               </p>
@@ -158,11 +170,15 @@ const Content = () => {
                 <br />
                 You are accepting of the views and beliefs of all
                 <br />
-                You are just beginning, or are already well established in your
-                career
+                You are just beginning,{" "}
+                <br className={classes.linebreakSmall} />
+                or are already well established in your career
                 <br />
-                You are looking for a full-time position, or need flexible
-                hours around your studies
+                You are looking for a full-time position,{" "}
+                <br className={classes.linebreakLarge} />
+                <br className={classes.linebreakMedium} />
+                <br className={classes.linebreakSmall} />
+                or need flexible hours around your studies
                 <br />
                 but most importantly, you believe in what you just read
                 <br />
