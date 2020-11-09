@@ -132,9 +132,9 @@
 .text {
   text-align: center;
   padding: 60px 0;
-  // @media screen and (max-width: 767px) {
+  // @media screen and (max-width: 575px) {
   //   p {
-  //     font-size: 0.7rem;
+  //     font-size: 0.5rem;
   //   }
   // }
 }
@@ -169,5 +169,9 @@
 .linebreakPhone {
   @media screen and (min-width: 576px) {
     display: none;
+  }
+  .text {
+    text-align: left;
+    padding: 60px 0;
   }
 }
