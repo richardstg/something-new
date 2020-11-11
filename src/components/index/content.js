@@ -195,7 +195,7 @@ const Content = () => {
                 others&nbsp;will&nbsp;too
                 <br />
                 {/* <br className={classes.linebreakPhone} /> */}
-                You are accepting of the views and beliefs&nbsp;of&nbsp;all
+                You are accepting of the views and&nbsp;beliefs&nbsp;of&nbsp;all
                 <br />
                 <br className={classes.linebreakPhone} />
                 You are just beginning,{" "}
