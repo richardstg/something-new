@@ -66,38 +66,39 @@ const Content = () => {
             // data-sal-easing="ease-out-bounce"
             >
               <p>
-                We observe that information flows at an increasingly higher pace
+                We observe that information flows at an
+                increasingly&nbsp;higher&nbsp;pace
                 <br />
-                <br className={classes.linebreakPhone} />
-                We observe an increasing number of interconnections{" "}
+                {/* <br className={classes.linebreakPhone} /> */}
+                We observe an increasing number of&nbsp;interconnections{" "}
                 <br className={classes.linebreakLarge} />
                 <br className={classes.linebreakMedium} />
-                and new business logics
+                and new&nbsp;business&nbsp;logics
                 <br />
-                <br className={classes.linebreakPhone} />
-                We observe the rise of distributed leadership and{" "}
+                {/* <br className={classes.linebreakPhone} /> */}
+                We observe the rise of distributed leadership and&nbsp;
                 <br className={classes.linebreakSmall} />
-                self-organizations
+                self&#8209;organizations
                 <br />
                 <br />
-                We believe in deep knowledge and data-driven{" "}
+                We believe in deep knowledge and data&#8209;driven&nbsp;
                 <br className={classes.linebreakSmall} />
-                decision-making
+                decision&#8209;making
                 <br />
-                <br className={classes.linebreakPhone} />
+                {/* <br className={classes.linebreakPhone} /> */}
                 We believe in pragmatic value creation and{" "}
                 <br className={classes.linebreakSmall} />
-                cultural alignment
+                cultural&nbsp;alignment
                 <br />
-                <br className={classes.linebreakPhone} />
-                We believe in inner and outer sustainability
+                {/* <br className={classes.linebreakPhone} /> */}
+                We believe in inner and outer&nbsp;sustainability
                 <br />
                 <br />
-                We believe in all the above, but we also observe that change is
-                evolving
+                We believe in all the above, but we also observe that
+                change&nbsp;is&nbsp;evolving
                 <br />
-                <br className={classes.linebreakPhone} />
-                And it is driven by people
+                {/* <br className={classes.linebreakPhone} /> */}
+                And it is driven by&nbsp;people
               </p>
             </div>
             <div
@@ -113,37 +114,39 @@ const Content = () => {
                 <br className={classes.linebreakLarge} />
                 <br className={classes.linebreakMedium} />
                 <br className={classes.linebreakSmall} />
-                brought together by a passion for people and business
+                brought&nbsp;together by a passion for
+                people&nbsp;and&nbsp;business
+                <br />
+                {/* <br className={classes.linebreakPhone} /> */}
+                We are real people who combine
+                Mind,&nbsp;Heart&nbsp;and&nbsp;Soul
+                in&nbsp;all&nbsp;that&nbsp;we&nbsp;are
                 <br />
                 <br className={classes.linebreakPhone} />
-                We are real people who combine Mind, Heart and Soul in all that
-                we are
+                We want to make a positive impact&nbsp;on&nbsp;the&nbsp;world
                 <br />
-                <br className={classes.linebreakPhone} />
-                We want to make a positive impact on the world
-                <br />
-                <br className={classes.linebreakPhone} />
+                {/* <br className={classes.linebreakPhone} /> */}
                 We think differently with an ambition{" "}
-                <br className={classes.linebreakSmall} />
-                to challenge conventionality
+                {/* <br className={classes.linebreakSmall} /> */}
+                to challenge&nbsp;conventionality
                 <br />
-                <br className={classes.linebreakPhone} />
-                We don’t take shortcuts, We create sustainable value
+                {/* <br className={classes.linebreakPhone} /> */}
+                We don’t take shortcuts, We create sustainable&nbsp;value
                 <br />
                 <br className={classes.linebreakPhone} />
                 We are a team <br className={classes.linebreakSmall} />
-                with a shared evolving purpose and values
+                with a shared evolving purpose&nbsp;and&nbsp;values
                 <br />
-                <br className={classes.linebreakPhone} />
+                {/* <br className={classes.linebreakPhone} /> */}
                 We develop people who evolve organizations that make{" "}
-                <br className={classes.linebreakMedium} />a difference in the
-                world
+                <br className={classes.linebreakMedium} />a difference
+                in&nbsp;the&nbsp;world
                 <br />
                 <br />
-                We create Organizational Capital Evolution
+                We create Organizational Capital&nbsp;Evolution
                 <br />
-                <br className={classes.linebreakPhone} />
-                And we are looking for Someone to join our team
+                {/* <br className={classes.linebreakPhone} /> */}
+                And we are looking for Someone to join&nbsp;our&nbsp;team
               </p>
             </div>
             <div
@@ -154,19 +157,21 @@ const Content = () => {
             >
               <h2>Partnerships</h2>
               <p>
-                We believe that the greatest results are created together
+                We believe that the greatest results
+                are&nbsp;created&nbsp;together
                 <br />
-                <br className={classes.linebreakPhone} />
-                We work together to create meaningful partnerships
+                {/* <br className={classes.linebreakPhone} /> */}
+                We work together to create meaningful&nbsp;partnerships
                 <br />
-                <br className={classes.linebreakPhone} />
-                ​We base our partnerships on long-term value creation,{" "}
-                <br className={classes.linebreakLarge} />
+                {/* <br className={classes.linebreakPhone} /> */}
+                ​We base our partnerships on long&#8209;term
+                value&nbsp;creation, <br className={classes.linebreakLarge} />
                 <br className={classes.linebreakMedium} />
-                which begins on day one
+                which begins on&nbsp;day&nbsp;one
                 <br />
-                <br className={classes.linebreakPhone} />
-                We are based in Sweden, but our partnerships are global
+                {/* <br className={classes.linebreakPhone} /> */}
+                We are based in Sweden, but our
+                partnerships&nbsp;are&nbsp;global
               </p>
             </div>
             <div
@@ -177,28 +182,28 @@ const Content = () => {
             >
               <h2>You</h2>
               <p>
-                You want to lead evolution within Organizational Capital
+                You want to lead evolution within Organizational&nbsp;Capital
                 <br />
-                <br className={classes.linebreakPhone} />
-                You are our most valuable asset
+                {/* <br className={classes.linebreakPhone} /> */}
+                You are our most valuable&nbsp;asset
                 <br />
-                <br className={classes.linebreakPhone} />
-                You consider yourself your most important leader
+                {/* <br className={classes.linebreakPhone} /> */}
+                You consider yourself your most important&nbsp;leader
                 <br />
                 <br className={classes.linebreakPhone} />
                 You can make mistakes, learn from them and understand that
-                others will too
+                others&nbsp;will&nbsp;too
                 <br />
-                <br className={classes.linebreakPhone} />
-                You are accepting of the views and beliefs of all
+                {/* <br className={classes.linebreakPhone} /> */}
+                You are accepting of the views and beliefs&nbsp;of&nbsp;all
                 <br />
                 <br className={classes.linebreakPhone} />
                 You are just beginning,{" "}
                 <br className={classes.linebreakSmall} />
-                or are already well established in your career
+                or are already well established in your&nbsp;career
                 <br />
-                <br className={classes.linebreakPhone} />
-                You are looking for a full-time position,{" "}
+                {/* <br className={classes.linebreakPhone} /> */}
+                You are looking for a full&#8209;time position,{" "}
                 <br className={classes.linebreakLarge} />
                 <br className={classes.linebreakMedium} />
                 <br className={classes.linebreakSmall} />
@@ -207,12 +212,13 @@ const Content = () => {
                 <br className={classes.linebreakLarge} />
                 <br className={classes.linebreakMedium} />
                 <br className={classes.linebreakSmall} />
-                but most importantly, you believe in what you just read
+                but most importantly, you believe in what
+                you&nbsp;just&nbsp;read
                 <br />
                 <br />
-                Are you someone at something new?
+                Are you someone at something&nbsp;new?
                 <br />
-                <br className={classes.linebreakPhone} />
+                {/* <br className={classes.linebreakPhone} /> */}
                 Email us your story and where you are heading at{" "}
                 <span
                   style={{
