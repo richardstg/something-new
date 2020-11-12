@@ -17,7 +17,7 @@ const IndexPage = () => {
       />
       <BackgroundSlider
         images={[image1, image2, image3]}
-        duration={5}
+        duration={7}
         transition={1.4}
       />
       <Content />
