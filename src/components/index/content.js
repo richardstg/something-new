@@ -94,11 +94,8 @@ const Content = () => {
                 We believe in inner and outer&nbsp;sustainability
                 <br />
                 <br />
-                We believe in all the above, but we also observe that
-                change&nbsp;is&nbsp;evolving
-                <br />
-                {/* <br className={classes.linebreakPhone} /> */}
-                And it is driven by&nbsp;people
+                However, everything we observe and believe in is evolving and it
+                is driven&nbsp;by&nbsp;people
               </p>
             </div>
             <div
